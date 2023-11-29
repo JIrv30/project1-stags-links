@@ -13,6 +13,7 @@ const Scroll = () => {
   const [value, setValue] = useState([])
   
 
+
   useEffect(()=>{
     const fetchData = async () => {
       const data = await getDocs(linksCollection)
@@ -30,7 +31,7 @@ const Scroll = () => {
     
   }
 
-  // console.log(value)
+  console.log(value)
 
   
 
